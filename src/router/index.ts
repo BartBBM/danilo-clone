@@ -24,6 +24,14 @@ const routes: Array<RouteRecordRaw> = [
         /* webpackChunkName: "about" */ "../views/Geburtsvorbereitungskurse.vue"
       ),
   },
+  {
+    path: "/wochenbettbegleitung",
+    name: "Wochenbettbegleitung",
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../views/Wochenbettbegleitung.vue"
+      ),
+  },
 ];
 
 const router = createRouter({

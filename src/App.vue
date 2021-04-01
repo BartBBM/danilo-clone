@@ -5,6 +5,8 @@
     <router-link to="/geburtsvorbereitungskurse"
       >Geburtsvorbereitungskurse</router-link
     >
+    |
+    <router-link to="/wochenbettbegleitung">Wochenbettbegleitung</router-link>
   </div>
   <router-view />
 </template>
